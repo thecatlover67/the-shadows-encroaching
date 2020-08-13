@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 5,
+    "recipeRetstackSize": 9,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.TNT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Chaoticgem"
+        "value": ""
       },
       {
-        "value": "Blocks.TNT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Chaoticgem"
+        "value": ""
       },
       {
         "value": "CUSTOM:PureShadowMatter"
       },
       {
-        "value": "CUSTOM:Chaoticgem"
+        "value": ""
       },
       {
-        "value": "Blocks.TNT"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Chaoticgem"
+        "value": ""
       },
       {
-        "value": "Blocks.TNT"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:UnholyHandgrenade"
+      "value": "CUSTOM:CompressedShadow"
     },
-    "name": "ungrenadercp",
+    "name": "compresscp_4",
     "namespace": "mod"
   }
 }

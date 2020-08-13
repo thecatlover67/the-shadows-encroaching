@@ -8,31 +8,31 @@
   ],
   "key": {
     "0": {
-      "item": "the_shade_mod:shadedimensionframe"
+      "item": "minecraft:tnt"
     },
     "1": {
       "item": "the_shade_mod:chaoticgem"
     },
     "2": {
-      "item": "the_shade_mod:shadedimensionframe"
+      "item": "minecraft:tnt"
     },
     "3": {
       "item": "the_shade_mod:chaoticgem"
     },
     "4": {
-      "item": "minecraft:nether_star"
+      "item": "the_shade_mod:pure_shadow_matter"
     },
     "5": {
       "item": "the_shade_mod:chaoticgem"
     },
     "6": {
-      "item": "the_shade_mod:shadedimensionframe"
+      "item": "minecraft:tnt"
     },
     "7": {
       "item": "the_shade_mod:chaoticgem"
     },
     "8": {
-      "item": "the_shade_mod:shadedimensionframe"
+      "item": "minecraft:tnt"
     }
   },
   "result": {
