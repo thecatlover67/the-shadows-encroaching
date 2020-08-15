@@ -112,6 +112,13 @@
               "value": "Items.APPLE"
             },
             "weight": 6
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Ancientsteel"
+            },
+            "weight": 1
           }
         ]
       }

@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "mace",
+    "texture": "spear",
     "customModelName": "Normal",
-    "name": "Ancient Mace",
+    "name": "Ancient Spear",
     "specialInfo": [],
     "creativeTab": {
       "value": "COMBAT"
@@ -13,9 +13,9 @@
     "toolType": "Sword",
     "harvestLevel": 3,
     "efficiency": 4.0,
-    "attackSpeed": 0.5,
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 14.5,
+    "damageVsEntity": 10.4,
     "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,

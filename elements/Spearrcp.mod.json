@@ -13,18 +13,6 @@
         "value": ""
       },
       {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BLAZE_ROD"
-      },
-      {
-        "value": "CUSTOM:Ancientsteel"
-      },
-      {
         "value": "CUSTOM:Ancientsteel"
       },
       {
@@ -34,13 +22,25 @@
         "value": "CUSTOM:Ancientsteel"
       },
       {
-        "value": "CUSTOM:CompressedShadow"
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:Ancientsteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Greekflamethrower"
+      "value": "CUSTOM:Ancientspear"
     },
-    "name": "flamercp",
+    "name": "spearrcp",
     "namespace": "mod"
   }
 }

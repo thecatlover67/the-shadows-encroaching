@@ -82,6 +82,11 @@
           "type": "minecraft:item",
           "name": "minecraft:apple",
           "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "the_shade_mod:ancientsteel",
+          "weight": 1
         }
       ]
     }

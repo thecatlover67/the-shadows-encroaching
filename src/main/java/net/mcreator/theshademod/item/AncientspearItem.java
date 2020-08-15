@@ -13,11 +13,11 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.theshademod.TheShadeModModElements;
 
 @TheShadeModModElements.ModElement.Tag
-public class AncientMaceItem extends TheShadeModModElements.ModElement {
-	@ObjectHolder("the_shade_mod:ancient_mace")
+public class AncientspearItem extends TheShadeModModElements.ModElement {
+	@ObjectHolder("the_shade_mod:ancientspear")
 	public static final Item block = null;
-	public AncientMaceItem(TheShadeModModElements instance) {
-		super(instance, 155);
+	public AncientspearItem(TheShadeModModElements instance) {
+		super(instance, 159);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class AncientMaceItem extends TheShadeModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 12.5f;
+				return 8.4f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class AncientMaceItem extends TheShadeModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AncientsteelItem.block, (int) (1)));
 			}
-		}, 3, -3.5f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("ancient_mace"));
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}.setRegistryName("ancientspear"));
 	}
 }

@@ -10,16 +10,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Ancientsteel"
       },
       {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BLAZE_ROD"
+        "value": "CUSTOM:Ancientsteel"
       },
       {
         "value": "CUSTOM:Ancientsteel"
@@ -28,19 +22,25 @@
         "value": "CUSTOM:Ancientsteel"
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": "CUSTOM:Ancientsteel"
       },
       {
-        "value": "CUSTOM:CompressedShadow"
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Greekflamethrower"
+      "value": "CUSTOM:AncientMace"
     },
-    "name": "flamercp",
+    "name": "macercp",
     "namespace": "mod"
   }
 }
