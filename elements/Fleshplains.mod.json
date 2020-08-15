@@ -25,6 +25,10 @@
     "treeFruits": {
       "value": "Blocks.AIR"
     },
+    "grassColor": {
+      "value": -15466476,
+      "falpha": 0.0
+    },
     "waterColor": {
       "value": -11398638,
       "falpha": 0.0

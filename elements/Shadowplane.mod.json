@@ -28,6 +28,9 @@
       },
       {
         "value": "CUSTOM:Fleshplains"
+      },
+      {
+        "value": "CUSTOM:Bloodocean"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -41,7 +44,7 @@
       "value": -14083022,
       "falpha": 0.0
     },
-    "canRespawnHere": false,
+    "canRespawnHere": true,
     "hasFog": false,
     "hasWeather": false,
     "isDark": true,

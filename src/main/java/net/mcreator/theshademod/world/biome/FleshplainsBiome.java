@@ -4,6 +4,8 @@ package net.mcreator.theshademod.world.biome;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.BiomeDictionary;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -41,6 +43,18 @@ public class FleshplainsBiome extends TheShadeModModElements.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(double posX, double posZ) {
+			return -15466476;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor() {
+			return -15466476;
 		}
 	}
 }

@@ -132,7 +132,8 @@ public class ShadowplaneDimension extends TheShadeModModElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_shade_mod:shadeforest")),
 				ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_shade_mod:shadowplains")),
-				ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_shade_mod:fleshplains")),};
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_shade_mod:fleshplains")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("the_shade_mod:bloodocean")),};
 	}
 
 	@Override
@@ -722,7 +723,7 @@ public class ShadowplaneDimension extends TheShadeModModElements.ModElement {
 
 		@Override
 		public boolean canRespawnHere() {
-			return false;
+			return true;
 		}
 
 		@OnlyIn(Dist.CLIENT)
